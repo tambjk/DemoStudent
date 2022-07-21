@@ -2,11 +2,13 @@ package com.lbs.example.demo.entity;
 
 import com.lbs.example.demo.entity.base.BaseEntity;
 
+import javax.persistence.Entity;
 import java.time.LocalDate;
 
 /**
  * Created by Erman.Kaygusuzer on 21/07/2022
  */
+@Entity
 public class Course extends BaseEntity {
 
 	private String classroomId;

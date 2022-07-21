@@ -1,14 +1,11 @@
-package com.lbs.example.demo.entity;
+package com.lbs.example.demo.domain;
 
-import com.lbs.example.demo.entity.base.BaseEntity;
-
-import javax.persistence.Entity;
+import com.lbs.example.demo.domain.base.BaseDto;
 
 /**
  * Created by Erman.Kaygusuzer on 21/07/2022
  */
-@Entity
-public class Instructor extends BaseEntity {
+public class InstructorDto extends BaseDto {
 
 	private String name;
 	private String surname;
